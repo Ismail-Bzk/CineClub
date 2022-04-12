@@ -13,10 +13,10 @@ class App(QtWidgets.QWidget):
     def setup_ui(self):
         self.layout =QtWidgets.QVBoxLayout(self)
         self.le_movieTitle = QtWidgets.QLineEdit()
-        self.btn_addMovie= QtWidgets.QPushButton("Ajouter un film")
+        self.btn_addMovie= QtWidgets.QPushButton("Add a movie")
         self.lw_movies= QtWidgets.QListWidget()
         self.lw_movies.setSelectionMode(QtWidgets.QListWidget.ExtendedSelection)
-        self.btn_removeMovies= QtWidgets.QPushButton("Supprimer le(s) film(s)")
+        self.btn_removeMovies= QtWidgets.QPushButton("delete movie(s)")
 
         
         self.layout.addWidget(self.le_movieTitle)
