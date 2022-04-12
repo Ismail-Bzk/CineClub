@@ -5,7 +5,7 @@ from pathlib import Path
 
 CUR_Dir=os.path.dirname(__file__)
 
-Data_File= os.path.join(CUR_Dir,"data","movies.json")
+Data_File= os.path.join(CUR_Dir,"movies.json")
 
 
 
